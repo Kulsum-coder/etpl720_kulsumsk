@@ -1,0 +1,126 @@
+Browser1: WOBrowser {
+	item = itrc;
+	list = clist;
+	multiple = true;
+	selectedValues = cerlist;
+}
+
+Browser2: WOBrowser {
+	item = iters;
+	list = slist;
+	multiple = true;
+	selectedValues = selskills;
+}
+
+CheckBox1: WOCheckBox {
+	checked = isMale;
+	name = "gender";
+}
+
+CheckBox2: WOCheckBox {
+	checked = isFemale;
+	name = "gender";
+}
+
+Conditional1: WOConditional {
+	condition = submit;
+	negate = true;
+}
+
+Form1: WOForm {
+}
+
+PopUpButton1: WOPopUpButton {
+	list = bglist;
+	noSelectionString = "...Choose...";
+	selectedValue = selectedbg;
+}
+
+String1: WOString {
+	value = "EMPLOYEE FORM";
+}
+
+String10: WOString {
+	value = "Designation";
+}
+
+String11: WOString {
+	value = "Blood Group";
+}
+
+String12: WOString {
+	value = "Skill Set";
+}
+
+String13: WOString {
+	value = "Nationality";
+}
+
+String2: WOString {
+	value = "Employee ID";
+}
+
+String3: WOString {
+	value = "Name";
+}
+
+String4: WOString {
+	value = "Gender";
+}
+
+String5: WOString {
+	value = "Salary";
+}
+
+String6: WOString {
+	value = "Date Of Birth";
+}
+
+String7: WOString {
+	value = "Adddress";
+}
+
+String8: WOString {
+	value = "Organisation";
+}
+
+String9: WOString {
+	value = "Certifications";
+}
+
+SubmitButton1: WOSubmitButton {
+	action = submit;
+	value = "Submit";
+}
+
+TextField1: WOTextField {
+	value = empid;
+}
+
+TextField2: WOTextField {
+	value = empname;
+}
+
+TextField3: WOTextField {
+	value = organisation;
+}
+
+TextField4: WOTextField {
+	value = salary;
+}
+
+TextField5: WOTextField {
+	value = designation;
+}
+
+TextField6: WOTextField {
+	value = nation;
+}
+
+TextField7: WOTextField {
+	value = address;
+}
+
+TextField8: WOTextField {
+	value = dob;
+}

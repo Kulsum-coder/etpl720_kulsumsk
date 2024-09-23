@@ -1,0 +1,10 @@
+import com.webobjects.foundation.NSMutableArray;
+
+public class EmpDetails {
+	public String empname;
+	public String address;
+	protected String gender;
+	protected double salary;
+	protected NSMutableArray bglist;
+	protected NSMutableArray Knownlanguage;
+}

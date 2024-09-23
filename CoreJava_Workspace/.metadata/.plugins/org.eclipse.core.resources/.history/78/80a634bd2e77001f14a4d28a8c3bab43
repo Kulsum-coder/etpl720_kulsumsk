@@ -1,0 +1,53 @@
+import com.webobjects.foundation.NSMutableArray;
+
+public class EmpDetails {
+	public String empname;
+	public String address;
+	protected String gender;
+	protected double salary;
+	protected NSMutableArray bglist;
+	protected NSMutableArray Knownlanguage;
+	protected NSMutableArray skillslist;
+	public String getEmpname() {
+		return empname;
+	}
+	public void setEmpname(String empname) {
+		this.empname = empname;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	public NSMutableArray getBglist() {
+		return bglist;
+	}
+	public void setBglist(NSMutableArray bglist) {
+		this.bglist = bglist;
+	}
+	public NSMutableArray getKnownlanguage() {
+		return Knownlanguage;
+	}
+	public void setKnownlanguage(NSMutableArray knownlanguage) {
+		Knownlanguage = knownlanguage;
+	}
+	public NSMutableArray getSkillslist() {
+		return skillslist;
+	}
+	public void setSkillslist(NSMutableArray skillslist) {
+		this.skillslist = skillslist;
+	}
+}

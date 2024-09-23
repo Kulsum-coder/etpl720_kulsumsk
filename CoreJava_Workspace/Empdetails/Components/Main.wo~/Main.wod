@@ -1,0 +1,180 @@
+Browser1: WOBrowser {
+	item = itrselskills;
+	list = skillslist;
+	multiple = True;
+	selections = emp.selskills;
+}
+
+CheckBox1: WOCheckBox {
+	checked = isTelugu;
+}
+
+CheckBox2: WOCheckBox {
+	checked = isHindi;
+}
+
+CheckBox3: WOCheckBox {
+	checked = isEnglish;
+}
+
+Conditional1: WOConditional {
+	condition = save;
+	negate = true;
+}
+
+Conditional2: WOConditional {
+	condition = save;
+}
+
+Form1: WOForm {
+}
+
+PopUpButton1: WOPopUpButton {
+	list = bglist;
+	noSelectionString = "..Choose..";
+	selection = emp.selectedbg;
+}
+
+RadioButton1: WORadioButton {
+	checked = isMale;
+	name = "gender";
+}
+
+RadioButton2: WORadioButton {
+	checked = isFemale;
+	name = "gender";
+}
+
+Repetition1: WORepetition {
+	item = iterselskills;
+	list = emp.selskills;
+}
+
+Repetition2: WORepetition {
+	item = kl;
+	list = emp.Knownlanguage;
+}
+
+String1: WOString {
+	value = "Welcome";
+}
+
+String10: WOString {
+	value = emp.gender;
+}
+
+String11: WOString {
+	value = "Languages";
+}
+
+String12: WOString {
+	value = "Languages";
+}
+
+String13: WOString {
+	value = kl;
+}
+
+String14: WOString {
+	value = "Blood Group";
+}
+
+String15: WOString {
+	value = "Blood Group";
+}
+
+String16: WOString {
+	value = emp.selectedbg;
+}
+
+String17: WOString {
+	value = "Salary";
+}
+
+String18: WOString {
+	value = "*";
+}
+
+String19: WOString {
+	value = "salary";
+}
+
+String2: WOString {
+	value = "Employee Name";
+}
+
+String20: WOString {
+	numberformat = "#,##0.00";
+	value = emp.salary;
+}
+
+String21: WOString {
+	value = "*";
+}
+
+String22: WOString {
+	value = "*";
+}
+
+String23: WOString {
+	value = "Skills";
+}
+
+String24: WOString {
+	value = "Skills";
+}
+
+String25: WOString {
+	value = iterselskills;
+}
+
+String3: WOString {
+	value = "Employee Address";
+}
+
+String4: WOString {
+	value = "Employee name";
+}
+
+String5: WOString {
+	value = "Employee Address";
+}
+
+String6: WOString {
+	value = emp.address;
+}
+
+String7: WOString {
+	value = emp.empname;
+}
+
+String8: WOString {
+	value = "Gender";
+}
+
+String9: WOString {
+	value = "Gender";
+}
+
+SubmitButton1: WOSubmitButton {
+	action = submit;
+	value = "submit";
+}
+
+SubmitButton2: WOSubmitButton {
+	action = back;
+	value = "Back";
+}
+
+TextField1: WOTextField {
+	value = emp.empname;
+}
+
+TextField2: WOTextField {
+	value = emp.address;
+}
+
+TextField3: WOTextField {
+	numberformat = "#,##0.00";
+	value = emp.salary;
+}

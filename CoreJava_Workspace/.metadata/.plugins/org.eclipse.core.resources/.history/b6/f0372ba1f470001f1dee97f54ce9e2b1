@@ -1,0 +1,23 @@
+package com.evergent.corejava.multithreading;
+
+public class ThreadClass1 extends Thread{
+	public void run() {
+		for(int i=1;i<10;i++) {
+			System.out.println(i);
+		}
+	}
+	public void view() {
+		for(int i=1;i<10;i++) {
+			System.out.println(i*i);
+		}
+	}
+	public static void main(String[] args) throws InterruptedException {
+		ThreadClass1 t1= new ThreadClass1();
+		
+		t1.run();
+		t1.run();
+		t1.start();
+		
+	}
+
+}

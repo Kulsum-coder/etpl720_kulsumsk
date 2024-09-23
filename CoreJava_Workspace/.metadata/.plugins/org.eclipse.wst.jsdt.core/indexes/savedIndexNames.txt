@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+C:\Users\kulsum.shaik\Desktop\CoreJava-Trainig\CoreJava_Workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

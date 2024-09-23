@@ -1,0 +1,25 @@
+Form1: WOForm {
+}
+
+String1: WOString {
+	value = "WELCOME";
+}
+
+String2: WOString {
+	value = "Employee Name";
+}
+
+String3: WOString {
+	value = "Address";
+}
+
+String4: WOString {
+	value = "empname";
+}
+
+String5: WOString {
+	value = "address";
+}
+
+SubmitButton1: WOSubmitButton {
+}
